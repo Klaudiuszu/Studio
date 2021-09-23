@@ -1,8 +1,90 @@
 $first-color: #F8F8F8;
 $second-color: #E3B04B;
 $third-color: #2B2B28;
-
+$font-first: 'Dancing Script', cursive;
+$font-second: 'Open Sans Condensed', sans-serif;
 /*
 font-family: 'Dancing Script', cursive;
 font-family: 'Open Sans Condensed', sans-serif;
 */
+
+.navbar-light {
+    .navbar-brand {
+    color: $second-color;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-style: oblique;
+    }
+}
+
+.navbar-light {
+    .navbar-brand:hover {
+    color: $first-color;
+    }
+}
+
+.navbar-light{
+    .navbar-nav {
+        .nav-link {
+        color: $first-color;
+        font-weight: 500;
+        font-style: oblique;
+        letter-spacing: 2px;
+        }
+    }
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $second-color;
+    font-weight: 500;
+}
+
+
+.navbar-brand {
+    font-family: $font-first;
+    font-size: 24px;
+    color: $first-color;
+}
+
+.bg-img {
+    background-image: url("https://i.postimg.cc/JnTpbm45/1.jpg");
+    min-height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.carousel-caption{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.nav-h1{
+    font-family: $font-first;
+
+    .btn-1{
+        background:$second-color;      
+        border: none;
+        color: $first-color;
+    }
+
+    .btn-1:hover {
+        background: $first-color;
+        color: $second-color;
+    }
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
