@@ -188,4 +188,59 @@ font-family: 'Open Sans Condensed', sans-serif;
 .card {
   border: none;
 }
+
+.footer {
+  margin: 32px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sites-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sites-box .sites {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #2B2B28;
+  font-size: 42px;
+  margin: 0 4px;
+}
+
+@media (max-width: 1200px) {
+  .nav-link {
+    font-size: 12px;
+  }
+  .introdution-mobile-h2 {
+    font-size: 16px;
+  }
+  .introdution-mobile-h1 {
+    font-size: 32px;
+  }
+  .services {
+    text-align: center;
+  }
+  .information {
+    margin: 12px 12px;
+  }
+  .footer {
+    text-align: center;
+    font-size: 9px;
+    margin: 12px 0;
+  }
+  .footer .sites {
+    font-size: 24px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

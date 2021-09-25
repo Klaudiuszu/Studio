@@ -174,3 +174,54 @@ font-family: 'Open Sans Condensed', sans-serif;
 .card {
     border:none;
 }
+
+.footer{
+    margin: 32px 0;
+    display: flex;
+    align-items: center;
+}
+
+.sites-box{
+    display: flex;
+    justify-content: center;
+    .sites{
+        flex-direction: row;
+        color: $third-color;
+        font-size: 42px;
+        margin: 0 4px;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .nav-link{
+        font-size: 12px;
+
+    } 
+    
+    .introdution-mobile-h2 {
+        font-size: 16px;
+
+    }
+    .introdution-mobile-h1{
+    font-size: 32px;
+    }
+
+    .services{
+        text-align: center;
+    }
+
+    .information{
+        margin:12px 12px;
+    }
+
+    .footer{
+        text-align: center;
+        font-size: 9px;
+        margin: 12px 0;
+        .sites{
+            font-size: 24px;
+        }
+    }
+
+}
