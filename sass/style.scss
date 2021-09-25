@@ -95,17 +95,18 @@ font-family: 'Open Sans Condensed', sans-serif;
     flex-direction: column;
     align-items: center;
     margin-top: 42px;
+    margin-bottom: 42px;
 
     h2{
         font-size: 42px;
         font-weight: 800;
         color: $third-color;
-        font-family: $font-first;
+        font-family: $font-second;
     }
 
     h3{
         font-size: 18px;
-        font-family: $font-first;
+        font-family: $font-second;
         opacity: 0.8;
         font-style: oblique;
     }
@@ -117,6 +118,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     align-items: center;
     text-align: center;
     font-family: $font-first;
+    margin-bottom: 42px;
 
     i{
         color: $second-color;
@@ -134,4 +136,41 @@ font-family: 'Open Sans Condensed', sans-serif;
         opacity: 0.8;
     }
 
+}
+
+.services-icons {
+    margin-bottom: 70px;
+}
+
+
+.card {
+    align-items: center;
+    font-family: $font-second;
+
+    .card-title {
+        font-weight: 600;
+    }
+
+    .card-text {
+        display: flex;
+        justify-content: center;
+        font-style: oblique;
+        letter-spacing: 3px;      
+    }
+}
+
+.bg {
+    background-color: $first-color;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.portfolio{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border:none;
 }
